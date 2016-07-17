@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Atividade_02</string>
+
+    <string name="mineiro">37 vezes</string>
+    <string name="libertadores">2 vezes</string>
+    <string name="copa_brasil">4 vezes</string>
+    <string name="brasileirao">4 vezes</string>
+
+    <string name="estadual">45 vezes</string>
+    <string name="libertadores_int">2 vezes</string>
+    <string name="copa_brasil_int">1 vezes</string>
+    <string name="brasileirao_int">3 vezes</string>
+
+</resources>

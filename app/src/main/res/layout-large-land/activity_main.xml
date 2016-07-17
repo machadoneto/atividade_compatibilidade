@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="br.unisinos.jeff.atividade_02.MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tittleSize"
+            android:layout_gravity="center"
+            android:text="CRUZEIRO ESPORTE CLUBE"/>
+
+        <ImageView
+            android:layout_width="@dimen/img_width"
+            android:layout_height="@dimen/img_height"
+            android:src="@drawable/cruzeiro"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/subtextSize"
+            android:text="TÍTULOS NACIONAIS E INTERNACIONAIS"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:text="Campeonato Mineiro: "
+                android:id="@+id/textView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mineiro"
+                android:textSize="@dimen/textSize"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/textView1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Copa do Brasil: "
+                android:textSize="@dimen/textSize"
+                android:id="@+id/textView2"
+                android:layout_below="@+id/textView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/copa_brasil"
+                android:id="@+id/textView3"
+                android:textSize="@dimen/textSize"
+                android:layout_below="@+id/textView"
+                android:layout_toRightOf="@+id/textView2"
+                android:layout_toEndOf="@+id/textView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brasileirão: "
+                android:textSize="@dimen/textSize"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/textView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/brasileirao"
+                android:id="@+id/textView5"
+                android:textSize="@dimen/textSize"
+                android:layout_below="@+id/textView2"
+                android:layout_toRightOf="@+id/textView4"
+                android:layout_toEndOf="@+id/textView4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Libertadores: "
+                android:textSize="@dimen/textSize"
+                android:id="@+id/textView6"
+                android:layout_below="@+id/textView4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/libertadores"
+                android:id="@+id/textView7"
+                android:layout_below="@+id/textView4"
+                android:textSize="@dimen/textSize"
+                android:layout_toRightOf="@+id/textView6"
+                android:layout_toEndOf="@+id/textView6" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tittleSize"
+                android:layout_gravity="center"
+                android:text="SPORT CLUBE INTERNACIONAL"/>
+
+            <ImageView
+                android:layout_width="@dimen/img_width"
+                android:layout_height="@dimen/img_height"
+                android:src="@drawable/internacional"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="TÍTULOS NACIONAIS E INTERNACIONAIS"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/subtextSize" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Campeonato Gaúcho: "
+                    android:textSize="@dimen/textSize"
+                    android:id="@+id/textView8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/estadual"
+                    android:layout_alignParentTop="true"
+                    android:textSize="@dimen/textSize"
+                    android:layout_toRightOf="@+id/textView8"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/textView9" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textSize"
+                    android:text="Copa do Brasil: "
+                    android:id="@+id/textView10"
+                    android:layout_below="@+id/textView8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/copa_brasil_int"
+                    android:textSize="@dimen/textSize"
+                    android:id="@+id/textView11"
+                    android:layout_below="@+id/textView8"
+                    android:layout_toRightOf="@+id/textView10"
+                    android:layout_toEndOf="@+id/textView10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textSize"
+                    android:text="Brasileirão: "
+                    android:id="@+id/textView12"
+                    android:layout_below="@+id/textView10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textSize"
+                    android:text="@string/brasileirao_int"
+                    android:id="@+id/textView13"
+                    android:layout_below="@+id/textView10"
+                    android:layout_toRightOf="@+id/textView12"
+                    android:layout_toEndOf="@+id/textView12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Libertadores: "
+                    android:textSize="@dimen/textSize"
+                    android:id="@+id/textView14"
+                    android:layout_below="@+id/textView12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/libertadores_int"
+                    android:id="@+id/textView15"
+                    android:textSize="@dimen/textSize"
+                    android:layout_below="@+id/textView12"
+                    android:layout_toRightOf="@+id/textView14"
+                    android:layout_toEndOf="@+id/textView14" />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
